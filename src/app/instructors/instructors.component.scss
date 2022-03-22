@@ -1,0 +1,14 @@
+@use "branding" as b;
+
+.instructors-layout{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards{
+  width: 80%;
+}
+
+.filter{
+  width: 20%;
+}

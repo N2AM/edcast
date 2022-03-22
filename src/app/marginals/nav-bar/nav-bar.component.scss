@@ -1,0 +1,26 @@
+@use "branding" as b;
+
+.nav-bar {
+  width: 100%;
+  height: b.$base-unit * 2.5;
+  background-color: var(--ids-color-palette-magneta-100);
+}
+.nav-links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .nav-link{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    font-size: var(--ids-size-font-px-20);
+    padding: 0 b.$base-padding * 2;
+    color: var(--ids-color-palette-slate-50);
+  }
+  .active-link{
+    border-bottom: 4px solid var(--ids-color-palette-emerald-90);
+  }
+}

@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@use "theme";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--ids-font-family-base);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  li {
+    list-style-type: none;
+  }
+}
+
+.btn{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

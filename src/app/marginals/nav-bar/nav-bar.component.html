@@ -1,0 +1,6 @@
+<div class="nav-bar">
+  <div  class="nav-links">
+    <a *ngFor="let navLink of navLinks" [routerLink]="navLink.link" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:
+true}" class="nav-link">{{ navLink.label }}</a>
+  </div>
+</div>

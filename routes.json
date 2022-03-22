@@ -1,0 +1,4 @@
+{
+  "/v1/list": "/list",
+  "/v1/details/:id": "/details-:id"
+}
